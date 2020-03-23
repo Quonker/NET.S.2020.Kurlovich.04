@@ -5,7 +5,9 @@ VisualStudioVersion = 15.0.28307.960
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task2", "Task\Task2.csproj", "{D0887FA2-D002-4051-A6A2-B7A8FA3B7D9D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task2Test", "Task2Test\Task2Test.csproj", "{B13B1ACB-DE22-450A-A9B7-ABACD7CFDABA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Task2Test", "Task2Test\Task2Test.csproj", "{B13B1ACB-DE22-450A-A9B7-ABACD7CFDABA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{731CD07E-EB95-46CA-BB03-E2A26BC094B8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,6 +26,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B13B1ACB-DE22-450A-A9B7-ABACD7CFDABA} = {731CD07E-EB95-46CA-BB03-E2A26BC094B8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {567A2FC4-70F0-48FF-8F29-496EA494D0DE}
